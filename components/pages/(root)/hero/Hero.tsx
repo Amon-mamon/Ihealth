@@ -63,21 +63,21 @@ const Hero = () => {
                     <div className=' absolute left-20 -bottom-46 w-[500px] h-[777px]'>
                         <Image alt='rectangle' src={images.blueRec.bluerectangle} className='w-full h-full object-contain'></Image>
                     </div>
-                    <div className=' absolute -bottom-23 card w-[514px] h-[957px] bg-white'>
-                        <div className='w-[514px] h-[957px] rounded-b-[200px] z-100'>
+                    <div className=' absolute -bottom-23'>
+                        <div className='w-[514px] h-[957px] z-100'>
                             <Image src={images.midRec.midrec} alt='middle'></Image>
                         </div>
                     </div>
-                    <div className='absolute w-[514px] h-[797px] -ml-80 right-25 -bottom-65 z-2'>
+                    <div className='absolute w-[514px] h-[850px] -ml-80 right-25 -bottom-72 z-3'>
                         <Image alt='woman' src={images.womanImage.woman} className='w-full h-full object-contain'></Image>
                     </div>
                     <div className='absolute -bottom-34 clear-start z-12  '>
                         <Image src={images.frame.frame}  alt ="frame"></Image>
                     </div>
                     
-                    <div className='bg-[#f5f6e4] w-[400px] z-3 absolute h-[120px] -bottom-28 rounded-tl-[80px] right-21 '></div>
-                    <div className='bg-[#f5f6e4] w-[400px] absolute h-[100px] -bottom-25 rounded-tr-[80px] left-21'></div>
-                    <div className='absolute w-[340px] h-[100px] -bottom-45 rounded-b-full '></div>
+                    <div className='bg-[#f5f6e4] w-[420px] z-3 absolute h-[120px] -bottom-28 rounded-tl-[80px] right-6 '></div>
+                    <div className='bg-[#f5f6e4] w-[420px] z-3 absolute h-[120px] -bottom-28 rounded-tr-[80px] left-6'></div>
+                    <div className=' bg-white absolute w-[340px] h-[300px] -bottom-44 rounded-b-full rounded-t-full'></div>
             </div>
         </div>
     </div>
