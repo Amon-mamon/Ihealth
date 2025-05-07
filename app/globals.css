@@ -16,11 +16,42 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    
   }
 }
 
 body {
-  background: var(--background);
+  background-color:#f5f6e4;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-primary {
+  background-color: #0F152B;
+  
+}
+.text-primary{
+  color: #0F152B;
+}
+.button-bg{
+  background-color: #9CC4E1;
+}
+.mazzard {
+  font-family: 'Mazzard';
+  src: url('/i-health/public/fonts/Mazzard/') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* .card{
+  position: relative;
+  width: 500px;
+  height: 800px;
+  background-color: white;
+  clip-path:path( "M 33.3,240 L 233.1,240 A 33.3,40 0,0,0 266.4,200 L 266.4,40 A 33.3,40 0,0,1 299.7,0 L 466.2,0 A 33.3,40 0,0,1 499.5,40 L 499.5,760 A 33.3,40 0,0,1 466.2,800 L 33.3,800 A 33.3,40 0,0,1 0,760 L 0,280 A 33.3,40 0,0,1 33.3,240 Z")
+} */
+
+.frame{
+  clip-path: circle();
 }
